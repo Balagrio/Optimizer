@@ -5,7 +5,7 @@
 rapidminered = input('RM Modell generiert? (j/n): ','s');
 if strcmp(rapidminered, 'n')
     pathToRapidminer = input('Wo befindet sich RapidMiner? ','s');
-    pathTioProcess = input('Wo befindet sich der Prozess? ', 's');
+    pathToProcess = input('Wo befindet sich der Prozess? ', 's');
     processName = input('Wie heisst der Prozess? ', 's');
     runrapidminer(pathToRapidminer, pathToProcess, processName);
     disp('-----------------');
