@@ -34,3 +34,10 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# Beispieldateien
+best.dat
+myfun.m
+polynomial.m
+polynomial_process.rmp
+polynomial_res.res
